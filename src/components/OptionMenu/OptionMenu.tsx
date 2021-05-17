@@ -103,7 +103,7 @@ const OptionMenu = React.memo<LocalProps>(
       childrenToRender.unshift(<TextInput 
                                   id="optMenuSearch" 
                                   initialValue={searchTerm ||  ""} 
-                                  placeholder={this.props.localization.getUIString("search") + "..."} 
+                                  // placeholder={this.props.localization.getUIString("search") + "..."} 
                                   index={0} 
                                   onChange={(ev) => {setSearchTerm(ev.target.value)}} />);
     }
